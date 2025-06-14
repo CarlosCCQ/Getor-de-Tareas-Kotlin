@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">UsingListInKotlin</string>
+    <string name="all_title">Welcome, Carlos</string>
+    <string name="all_category">Categories:</string>
+    <string name="business">Business</string>
+    <string name="personal">Personal</string>
+    <string name="other">Other</string>
+    <string name="all_tasks">Tasks:</string>
+    <string name="description_button_for_task">Button to ad tasks</string>
+    <string name="add_the_task">Add the task</string>
+    <string name="description_button_add_task">Button to add task</string>
+    <string name="create_task">Create task</string>
+</resources>

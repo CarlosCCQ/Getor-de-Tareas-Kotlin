@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:background="@color/background_app"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="auto"
+        android:minHeight="48dp"
+        android:backgroundTint="@color/white"
+        android:hint="@string/add_the_task"
+        android:inputType="textMultiLine"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white">
+
+    </EditText>
+
+    <RadioGroup
+        android:id="@+id/rgCategories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rdBusiness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/business"
+            android:textColor="@color/white"
+            app:buttonTint="@color/business_category">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rdPersonal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/personal"
+            android:textColor="@color/white"
+            app:buttonTint="@color/personal_category">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rdOther"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/other"
+            android:textColor="@color/white"
+            app:buttonTint="@color/other_category">
+
+        </RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnAddTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/accent"
+        android:contentDescription="@string/description_button_add_task"
+        android:text="@string/create_task">
+
+    </Button>
+
+</LinearLayout>
